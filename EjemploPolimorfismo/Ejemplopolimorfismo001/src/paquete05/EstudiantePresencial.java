@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package paquete06;
+package paquete05;
 
 public class EstudiantePresencial extends Estudiante {
 
-    /*1.  Declarar
-        numeroCreditos: Entero 
-        costoCredito: Real 
-     */
     int numeroCreditos;
     double costoCredito;
 
@@ -20,15 +11,6 @@ public class EstudiantePresencial extends Estudiante {
         this.costoCredito = costoCredito;
     }
 
-    public EstudiantePresencial() {
-  
-    }
-
-    public EstudiantePresencial(String nombresEstudiante, String apellidosEstudiante, String identificacionEstudiante, int edadEstudiante) {
-        super(nombresEstudiante, apellidosEstudiante, identificacionEstudiante, edadEstudiante);
-    }
-    
-    
     //  Métodos establecer y calcular para los datos o atributos de la clase
     // 2.  Método establecerNumeroCreditos(numero: Real)
     public void establecerNumeroCreditos(int numero) {
@@ -69,4 +51,5 @@ public class EstudiantePresencial extends Estudiante {
         sb.append('}');
         return sb.toString();
     }
+
 }

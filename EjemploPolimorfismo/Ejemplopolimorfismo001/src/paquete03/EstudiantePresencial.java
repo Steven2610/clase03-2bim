@@ -28,7 +28,7 @@ public class EstudiantePresencial extends Estudiante{
     // Se implementa el método abstracto declarado en la superclase,
     // bajo las condiciones propias de la subclase
     @Override
-    public void calcularMatricula(){
+    public void calcularMatricula(){//
         matricula = numeroCreditos * costoCredito;
     }
 
